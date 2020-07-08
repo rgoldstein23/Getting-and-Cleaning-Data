@@ -1,0 +1,113 @@
+# Code Book
+
+The output from the file "run_analysis.R" is the text file, "tidydata.txt". 
+This file is a summary of a human activity recognition dataset collected using Samsung Galaxt smartphones 
+for the UCI Machine Learning Repository. The file comprises of a dataset with the mean and standard deviation (STD) 
+of measurements taken during six different activities. Activities were performed by 30  subjects.
+
+## Identifiers
+Subject - volunteer ID
+
+Activity - activity performed by the subject
+
+## Activities
+
+Code|Activity
+----|-------------
+1   |          WALKING
+2   | WALKING UPSTAIRS
+3   | WALKING DOWNSTAIRS
+4   |          SITTING
+5   |         STANDING
+6   |           LAYING
+
+## Measurements
+
+* Subject                             
+* Activity                             
+* tBodyAcc.meanX                   
+* tBodyAcc.meanY                   
+* tBodyAcc.meanZ                   
+* tGravityAcc.meanX                
+* tGravityAcc.meanY                
+* tGravityAcc.meanZ                
+* tBodyAccJerk.meanX               
+* tBodyAccJerk.meanY               
+* tBodyAccJerk.meanZ               
+* tBodyGyro.meanX                  
+* tBodyGyro.meanY                  
+* tBodyGyro.meanZ                  
+* tBodyGyroJerk.meanX              
+* tBodyGyroJerk.meanY              
+* tBodyGyroJerk.meanZ              
+* tBodyAccMag.mean                  
+* tGravityAccMag.mean               
+* tBodyAccJerkMag.mean              
+* tBodyGyroMag.mean                 
+* tBodyGyroJerkMag.mean             
+* fBodyAcc.meanX                   
+* fBodyAcc.meanY                   
+* fBodyAcc.meanZ                   
+* fBodyAcc.meanFreqX               
+* fBodyAcc.meanFreqY               
+* fBodyAcc.meanFreqZ               
+* fBodyAccJerk.meanX               
+* fBodyAccJerk.meanY               
+* fBodyAccJerk.meanZ               
+* fBodyAccJerk.meanFreqX           
+* fBodyAccJerk.meanFreqY           
+* fBodyAccJerk.meanFreqZ           
+* fBodyGyro.meanX                  
+* fBodyGyro.meanY                  
+* fBodyGyro.meanZ                  
+* fBodyGyro.meanFreqX              
+* fBodyGyro.meanFreqY              
+* fBodyGyro.meanFreqZ              
+* fBodyAccMag.mean                  
+* fBodyAccMag.meanFreq              
+* fBodyBodyAccJerkMag.mean          
+* fBodyBodyAccJerkMag.meanFreq      
+* fBodyBodyGyroMag.mean             
+* fBodyBodyGyroMag.meanFreq         
+* fBodyBodyGyroJerkMag.mean         
+* fBodyBodyGyroJerkMag.meanFreq     
+* angle.tBodyAccMean.gravity.         
+* angle.tBodyAccJerkMeangravityMean.
+* angle.tBodyGyroMean.gravityMean.    
+* angle.tBodyGyroJerkMean.gravityMean.
+* angle.X.gravityMean.                
+* angle.Y.gravityMean.                
+* angle.Z.gravityMean.                
+* tBodyAcc.stdX                    
+* tBodyAcc.stdY                    
+* tBodyAcc.stdZ                    
+* tGravityAcc.stdX                   
+* tGravityAcc.stdY                 
+* tGravityAcc.stdZ                 
+* tBodyAccJerk.stdX                
+* tBodyAccJerk.stdY                
+* tBodyAccJerk.stdZ                
+* tBodyGyro.stdX                   
+* tBodyGyro.stdY                   
+* tBodyGyro.stdZ                   
+* tBodyGyroJerk.stdX               
+* tBodyGyroJerk.stdY               
+* tBodyGyroJerk.stdZ               
+* tBodyAccMag.std                   
+* tGravityAccMag.std                
+* tBodyAccJerkMag.std               
+* tBodyGyroMag.std                  
+* tBodyGyroJerkMag.std              
+* fBodyAcc.stdX                    
+* fBodyAcc.stdY                    
+* fBodyAcc.stdZ                    
+* fBodyAccJerk.stdX                
+* fBodyAccJerk.stdY                
+* fBodyAccJerk.stdZ                
+* fBodyGyro.stdX                   
+* fBodyGyro.stdY                   
+* fBodyGyro.stdZ                   
+* fBodyAccMag.std                   
+* fBodyBodyAccJerkMag.std           
+* fBodyBodyGyroMag.std            
+* fBodyBodyGyroJerkMag.std
