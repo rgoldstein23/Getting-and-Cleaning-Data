@@ -9,7 +9,10 @@ output:
 
 # Code Book
 
-The output from the file "run_analysis.R" is the text file, "tidydata.txt". This file is a summary of a human activity recognition dataset collected using Samsung Galaxt smartphones for the UCI Machine Learning Repository. The file comprises of a dataset with the mean and standard deviation (STD) of measurements taken during six different activities. Activities were performed by 30  subjects.
+The output from the file "run_analysis.R" is the text file, "tidydata.txt". 
+This file is a summary of a human activity recognition dataset collected using Samsung Galaxt smartphones 
+for the UCI Machine Learning Repository. The file comprises of a dataset with the mean and standard deviation (STD) 
+of measurements taken during six different activities. Activities were performed by 30  subjects.
 
 ## Identifiers
 Subject - volunteer ID
