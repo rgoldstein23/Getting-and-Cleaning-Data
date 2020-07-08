@@ -3,6 +3,7 @@ Final assignment for Data Science Course 3: Getting and Cleaning Data
 
 This repository contains the R code used to summarize and tidy a human activity recognition dataset from UCI Machine Learning. 
 http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions
+
 Data were collected using a Samsung Galaxy Smartphone to measure six different human activites performed by 30 subjects.
 The file "tidydata.txt" shows the extracted means and standard deviations of the measurements taken during the study.
 
