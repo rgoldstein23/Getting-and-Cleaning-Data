@@ -1,30 +1,31 @@
 ---
-title: "Codebook"
+title: "Code Book"
 author: "Rachel Goldstein"
 date: "07/07/2020"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 # Code Book
 
-The output from the file "run_analysis.R" is the text file, "tidydata.txt". 
-This file is a summary of a human activity recognition dataset collected using 
-Samsung Galaxt smartphones for the UCI Machine Learning Repository. 
-The file comprises of a dataset with the mean and standard deviation (STD) 
-of measurements taken during six different activities. Activities were performed by 30  subjects.
+The output from the file "run_analysis.R" is the text file, "tidydata.txt". This file is a summary of a human activity recognition dataset collected using Samsung Galaxt smartphones for the UCI Machine Learning Repository. The file comprises of a dataset with the mean and standard deviation (STD) of measurements taken during six different activities. Activities were performed by 30  subjects.
 
 ## Identifiers
-Subject -- volunteer ID
-Activity -- activity performed by the subject
+Subject - volunteer ID
+
+Activity - activity performed by the subject
 
 ## Activities
-**Code**       **Activity**
-    1             WALKING
-    2    WALKING UPSTAIRS
-    3  WALKING DOWNSTAIRS
-    4             SITTING
-    5            STANDING
-    6              LAYING
+
+Code|Activity
+----|-------------
+1   |          WALKING
+2   | WALKING UPSTAIRS
+3   | WALKING DOWNSTAIRS
+4   |          SITTING
+5   |         STANDING
+6   |           LAYING
 
 ## Measurements
 
